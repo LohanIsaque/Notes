@@ -1,0 +1,51 @@
+.corpo{
+    display: flex;
+    margin-left: 52px;
+}
+
+.input-Anotar{
+  background-color: #7890A8;
+  height: 52px;
+  width: 675px;
+  border: none;
+  border-radius: 11px;
+  padding: 5px 15px;
+}
+
+.N-notas{
+  font-family: 'Roboto', sans-serif;
+  font-size: 26px;
+  color: rgba(0, 0, 0, 0.508);
+}
+
+::placeholder{
+  font-family: 'Roboto', sans-serif;
+  color: rgba(0, 0, 0, 0.51);
+  font-size: 26px;
+}
+
+.Notas-p-adicionar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 126px;
+}
+
+.Icones{
+  display: flex;
+  flex-direction: column;
+  width: 101px;
+  height: 365px;
+  margin-top: 220px;
+  gap: 21px;
+  background-color: #7890A8;
+  margin-right: 500px;
+  border-radius: 62px;
+}
+
+.Icone-ideias, .Icone-notificacoes, .Icone-Edicao, .Icone-Pasta, .Icone-Remover{
+  width: 51px;
+  height: 51px;
+  margin-left: 25px;
+  margin-top: 5px;
+}

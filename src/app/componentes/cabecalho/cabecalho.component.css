@@ -1,0 +1,48 @@
+.Logo-notas{
+  height: 94px;
+  width: 94px;
+  margin-right: 30px;
+}
+
+.input-Pesquisa{
+  height: 56px;
+  width: 1008px;
+  background-color: #7890A8;
+  border-radius: 17px;
+  border-color: #7890a8;
+  gap: 84px;
+  opacity: 100%;
+  border: none;
+}
+
+.Cabecalho{
+  background-color: white;
+  border: black;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 84px;
+}
+
+.Linha{
+  width: 100%;
+  color: gray;
+}
+
+.Notas{
+  display: flex;
+  align-items: center;
+}
+
+
+::placeholder{
+  color: white;
+  font-size: 26px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.tipo1{
+  width: 250px;
+  background-color: aqua;
+}
+
